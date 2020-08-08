@@ -1,5 +1,3 @@
-
-
 def main():
     data = ("self", "py", 1.543)
     format_string = "Hello"

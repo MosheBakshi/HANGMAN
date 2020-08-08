@@ -2,6 +2,8 @@ def picture1():
     return """
     x-------x
     """
+
+
 def picture2():
     return """
     x-------x
@@ -11,6 +13,8 @@ def picture2():
     |
     |
     """
+
+
 def picture3():
     return """
     x-------x
@@ -20,6 +24,8 @@ def picture3():
     |
     |
     """
+
+
 def picture4():
     return """
     x-------x
@@ -29,6 +35,8 @@ def picture4():
     |
     |
     """
+
+
 def picture5():
     return """
     x-------x
@@ -38,6 +46,8 @@ def picture5():
     |
     |
     """
+
+
 def picture6():
     return """
     x-------x
@@ -47,6 +57,8 @@ def picture6():
     |      /
     |
     """
+
+
 def picture7():
     return """
     x-------x

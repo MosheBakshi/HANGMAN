@@ -10,6 +10,8 @@ def inverse_dict(my_dict):
         else:
             inverse_dictionary[item[1]] = []
             inverse_dictionary[item[1]].append(item[0])
+    for value in inverse_dictionary.values():
+        value.sort(key=sorted)
     return inverse_dictionary
 
 
