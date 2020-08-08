@@ -12,6 +12,7 @@ def count_chars(my_str):
 
 
 def main():
+    print(count_chars.__doc__)
     magic_str = "abra cadabra"
     print(count_chars(magic_str))
 
