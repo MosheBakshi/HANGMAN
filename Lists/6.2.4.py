@@ -8,6 +8,7 @@ def extend_list_x(list_x, list_y):
     list_x[:0] = list_y
     return list_x
 
+
 def main():
     print(extend_list_x.__doc__)
     x = [4, 5, 6]
