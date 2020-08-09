@@ -1,6 +1,7 @@
 import os
 
 # work on files with different actions as can be seen in main
+# "C:\Users\shl\PycharmProjects\HANGMAN\Files\sampleFile.txt"
 
 
 def main():
@@ -18,10 +19,10 @@ def main():
             sorted_list = sorted(set_of_words)
             print(sorted_list)
         elif action_input == 'rev':
-            # "C:\Users\shl\PycharmProjects\HANGMAN\Files\sampleFile.txt"
             revered_file_input = open(os.path.join(path_input), 'r')
             for line in revered_file_input.readlines():
                 print(line[::-1])
+            revered_file_input.close()
         elif action_input == 'last':
             num_of_lines = input("""                Please enter number of lines: """)
             file_input = open(os.path.join(path_input), 'r').readlines()[-int(num_of_lines):]
