@@ -29,10 +29,8 @@ def count_songs(playlist):
 
 def most_appeared_singer(playlist):
     list_of_song = []
-    counter = []
     max_appears = 0
     singer_name = ""
-    i = 0
     for item in playlist:
         list_of_song.append(item[1])
     counter = list(set(list_of_song))
@@ -51,7 +49,7 @@ def longest_song(playlist):
         if int(str(item[2]).split(':')[0]) > max_minute:
             max_minute = int(str(item[2]).split(':')[0])
             song_name = str(item[0])
-        elif int(str(item[2]).split(':')[0]) == max_minute and\
+        elif int(str(item[2]).split(':')[0]) == max_minute and \
                 int(str(item[2]).split(':')[2] + str(item[2]).split(':')[3]) > max_second:
             max_second = int(str(item[2]).split(':')[2] + str(item[2]).split(':')[3])
             song_name = str(item[0])
